@@ -14,8 +14,14 @@
 3. HTML Page, S3, and GitHub Actions   
   - Create an HTML file with Resume content 
   - Create an S3 bucket with settings "block all public access" and "enable versioning"
+  - Enable static site hosting on the bucket 
   - Add file .github/workflows/main.yaml to handle GitHub actions and automatic deployment to S3 
-
+  - Enter AWS keys in GitHub repository Settings / Secrets and varaibles 
+  - Pushing code to S3 from GitHub itself does not require any change to the S3 Bucket Policy 
+4. Route 53, CloudFront, S3 
+  - Set up CloudFront with HTTPS for the S3 bucket 
+  - Register Route 53 domain name (later, point to CloudFront) 
+  
 
  ## Sources 
 1. AWS Documentation, "Creating a cost budget", [link](https://docs.aws.amazon.com/cost-management/latest/userguide/create-cost-budget.html)
