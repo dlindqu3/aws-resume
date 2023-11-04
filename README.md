@@ -4,28 +4,13 @@
 - The project is built with tools like S3, CloudFront, Lambda, API Gateway, DynamoDB, and AWS Severless Application Model (SAM) templates
 - My iteration of the project will follow similar guidelines, but will add other services / capabilities as I see fit 
 
-### Steps 
-1. Budget & Budget Alerts 
-  - Set up AWS Budgets alerts to notify me when costs exceed a certain thresholds per month 
-  - Use root user to set up the budget 
-2. Non-Root User 
-  - Set up a non-root AWS account with access keys and administrator access and work from that account
-  - This is more secure than working from the root account 
-3. HTML Page, S3, and GitHub Actions   
-  - Create an HTML file with Resume content 
-  - Create an S3 bucket with settings "block all public access" and "enable versioning"
-  - Enable static site hosting on the bucket 
-  - Add file .github/workflows/main.yaml to handle GitHub actions and automatic deployment to S3 
-  - Enter AWS keys in GitHub repository Settings / Secrets and varaibles 
-  - Pushing code to S3 from GitHub itself does not require any change to the S3 Bucket Policy 
-4. Route 53, CloudFront, S3 
-  - Set up CloudFront with HTTPS for the S3 bucket 
-  - Register Route 53 domain name (later, point to CloudFront) 
-  
-
  ## Sources 
 1. AWS Documentation, "Creating a cost budget", [link](https://docs.aws.amazon.com/cost-management/latest/userguide/create-cost-budget.html)
 2. AWS Documentation, "Getting Set Up with IAM", [link](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-set-up.html) 
 3. AWS Documentation, "Tutorial: Configuring a static website on Amazon S3", [link](https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html) 
 4. John Kevin Losito, "Deploy static website to S3 using Github actions", [link](https://dev.to/johnkevinlosito/deploy-static-website-to-s3-using-github-actions-4a0e)
 5. Alex Hyett, "GitHub Actions To S3", [link](https://www.youtube.com/watch?v=JffSxrjx_UM)
+6. AWS re:Post, "How can I validate ACM certificates from Route 53?", [link](https://repost.aws/knowledge-center/route-53-validate-acm-certificates)
+7. AWS Documentation, "Troubleshooting certificate validation", [link](https://docs.aws.amazon.com/acm/latest/userguide/certificate-validation.html) 
+8. AWS Documentation, "Specifying a default root object", [link](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DefaultRootObject.html)
+9. Stack Overflow, "CloudFront distribution not showing as Route53 alias target", [link](https://stackoverflow.com/questions/30611917/cloudfront-distribution-not-showing-as-route53-alias-target)
