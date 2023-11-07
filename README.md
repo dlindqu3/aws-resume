@@ -8,8 +8,7 @@
 
 
 ## Deployed site screenshot 
-
-[<img src="./images/deployed_resume_screenshot.png">]
+<img src="./images/deployed_resume_screenshot.png">
 
 
 ## Backend repository 
