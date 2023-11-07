@@ -6,6 +6,9 @@
 ## Deployed URL 
 - cloud-resume-dlindqu.com 
 
+## Backend repository 
+- https://github.com/dlindqu3/aws-resume-backend 
+
  ## Sources 
 1. AWS Documentation, "Creating a cost budget", [link](https://docs.aws.amazon.com/cost-management/latest/userguide/create-cost-budget.html)
 2. AWS Documentation, "Getting Set Up with IAM", [link](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-set-up.html) 
