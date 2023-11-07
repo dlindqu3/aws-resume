@@ -6,6 +6,12 @@
 ## Deployed URL 
 - cloud-resume-dlindqu.com 
 
+
+## Deployed site screenshot 
+
+[<img src="./images/deployed_resume_screenshot.png">]
+
+
 ## Backend repository 
 - https://github.com/dlindqu3/aws-resume-backend 
 
