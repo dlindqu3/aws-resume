@@ -1,7 +1,7 @@
 ## The Cloud Resume Challenge - AWS - Frontend 
 - The website [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/) describes a sample AWS cloud project that involves hosting a resume copy on AWS 
 - The frontend of the project is built with tools like S3, CloudFront, AWS Certificate Manager, HTML, and JavaScript
-- My iteration of the project will follow similar guidelines, but will add other services / capabilities as I see fit 
+- My iteration of the project followed similar guidelines, but  added other services / capabilities as I saw fit 
 
 ## Deployed URL 
 - cloud-resume-dlindqu.com 
